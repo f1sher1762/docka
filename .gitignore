@@ -1,0 +1,10 @@
+# Игнорируем данные MySQL и WordPress
+data/mysql
+data/html
+
+# Игнорируем временные файлы
+*.log
+*.pid
+
+# Игнорируем Docker кеши
+docker-compose.override.yml
